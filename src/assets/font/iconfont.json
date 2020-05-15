@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "283049",
+      "name": "返回顶部",
+      "font_class": "huidingbu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "2859264",
+      "name": "购物车-23",
+      "font_class": "qicheqianlian-",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "8628274",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "9752254",
+      "name": "垃圾",
+      "font_class": "laji",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "10878919",
+      "name": "删除筛选项",
+      "font_class": "delete",
+      "unicode": "e51a",
+      "unicode_decimal": 58650
+    },
+    {
+      "icon_id": "12362042",
+      "name": "订单",
+      "font_class": "icon-",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "13161661",
+      "name": "我 的",
+      "font_class": "sself",
+      "unicode": "e510",
+      "unicode_decimal": 58640
+    },
+    {
+      "icon_id": "13405950",
+      "name": "收 藏",
+      "font_class": "collect",
+      "unicode": "e504",
+      "unicode_decimal": 58628
+    },
+    {
+      "icon_id": "13474640",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}

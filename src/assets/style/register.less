@@ -1,0 +1,120 @@
+
+  .login-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/login-bg.png) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    .login {
+      position: relative;
+      padding: 0 25px;
+      color: #fff;
+      .login-info {
+        margin-top: 10px;
+        font-size: 16px;
+        .login-username, .login-password {
+          position: relative;
+          height: 45px;
+          margin-bottom: 15px;
+          z-index: 1;
+          .tip {
+            position: absolute;
+            left: 5px;
+            bottom: 9px;
+            z-index: -1;
+            letter-spacing: 1px;
+            .m-img {
+              width: 21px;
+              margin-left: 5px;
+              margin-right: 12px;
+              vertical-align: -4px;
+            }
+            img {
+              width: 30px;
+              margin-right: 8px;
+              vertical-align: -7px;
+            }
+          }
+          .eye {
+            position: absolute;
+            right: 8px;
+            top: 17px;
+            width: 20px;
+            height: 20px;
+          }
+        }
+        input {
+          display: block;
+          width: calc(100% - 53px);
+          height: calc(100% - 1px);
+          padding-left: 41px;
+          padding-right: 12px;
+          border-bottom: 1px solid #bab0ac;
+        }
+        .no-pass {
+          border-bottom: 1px solid #e4393c;
+        }
+        .pass {
+          border-bottom: 1px solid #1989fa;
+        }
+        .tip-pass {
+          position: absolute;
+          top: -10px;
+          right: 5px;
+          padding: 0 6px;
+          height: 20px;
+          line-height: 20px;
+          border-radius: 6px;
+          font-size: 12px;
+          color: #e4393c;
+          background: rgba(255, 255, 255, .55);
+        }
+      }
+      .login-tool {
+        overflow: hidden;
+        font-size: 14px;
+      }
+      .submit {
+        height: 35px;
+        margin-top: 25px;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 35px;
+        border-radius: 8px;
+        background: #561610;
+      }
+      .submit:active {
+        background: #2f0b08;
+      }
+      .footer {
+        position: absolute;
+        left: 25px;
+        bottom: -170px;
+        width: calc(100% - 60px);
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .line-box {
+        position: absolute;
+        left: 25px;
+        bottom: -90px;
+        width: calc(100% - 50px);
+        height: 19px;
+        text-align: center;
+        font-size: 14px;
+        .line {
+          width: 110px;
+          height: 0;
+          margin-top: 9px;
+          border-top: 1px solid #c6a08c;
+        }
+      }
+    }
+  }
